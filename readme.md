@@ -42,8 +42,8 @@ numbers.pop()
 | compression             |    size |
 | :---------------------- | ------: |
 | abstract-pool.js        | 1.17 kB |
-| abstract-pool.min.js    |   881 B |
-| abstract-pool.min.js.gz |   432 B |
+| abstract-pool.min.js    |   882 B |
+| abstract-pool.min.js.gz |   433 B |
 
 
 ## License
