@@ -1,6 +1,6 @@
 {
   "name": "abstract-pool",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "unopinionated object pooling",
   "main": "index.js",
   "devDependencies": {
