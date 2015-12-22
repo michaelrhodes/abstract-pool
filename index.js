@@ -29,7 +29,7 @@ AbstractPool.prototype.alloc = function (size) {
 }
 
 AbstractPool.prototype.dealloc = function (size) {
-  this.store.splice(0, size)
+  this.store.splice(size * -1)
 }
 
 module.exports = AbstractPool
