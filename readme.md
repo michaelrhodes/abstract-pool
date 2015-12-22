@@ -14,6 +14,27 @@ $ npm install abstract-pool
 
 ```js
 var pool = require('abstract-pool')
+
+var i = 0
+var numbers = pool(function () {
+  return ++i
+})
+
+numbers.alloc(5)
+numbers.pop()
+=> 5
+
+var number = numbers.pop()
+console.log(number)
+=> 4
+
+numbers.push(number)
+numbers.pop()
+=> 4
+
+numbers.dealloc(2)
+numbers.pop()
+=> 1
 ```
 
 ### page weight (browserified)
